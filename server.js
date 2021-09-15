@@ -1,10 +1,10 @@
 module.exports = () => {
   const data = {
-    products: []
+    products: [],
   };
 
-  for(let i; i<1000; i++) {
-    data.push({
+  for(let i = 0; i<1000; i++) {
+    data.products.push({
       id: i + 1,
       price: 80,
       title: `Camiseta ${i+1}`
